@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Python Calculator</title>
+  <desc id="desc">A calculator with Python code and common calculator buttons</desc>
+  <rect width="640" height="360" rx="24" fill="#0f172a"/>
+  <circle cx="555" cy="74" r="18" fill="#38bdf8" opacity=".18"/>
+  <circle cx="75" cy="300" r="46" fill="#6366f1" opacity=".12"/>
+
+  <g transform="translate(55 38)">
+    <rect width="310" height="284" rx="18" fill="#020617" stroke="#334155" stroke-width="3"/>
+    <rect x="24" y="24" width="262" height="58" rx="10" fill="#111827" stroke="#38bdf8" stroke-width="2"/>
+    <text x="258" y="63" text-anchor="end" fill="#e5e7eb" font-family="Poppins, Arial, sans-serif" font-size="34">1,248</text>
+
+    <g fill="#1e293b" stroke="#475569" stroke-width="2">
+      <rect x="24" y="104" width="56" height="42" rx="8"/>
+      <rect x="92" y="104" width="56" height="42" rx="8"/>
+      <rect x="160" y="104" width="56" height="42" rx="8"/>
+      <rect x="228" y="104" width="58" height="42" rx="8" fill="#0e7490"/>
+
+      <rect x="24" y="158" width="56" height="42" rx="8"/>
+      <rect x="92" y="158" width="56" height="42" rx="8"/>
+      <rect x="160" y="158" width="56" height="42" rx="8"/>
+      <rect x="228" y="158" width="58" height="42" rx="8" fill="#4338ca"/>
+
+      <rect x="24" y="212" width="56" height="42" rx="8"/>
+      <rect x="92" y="212" width="56" height="42" rx="8"/>
+      <rect x="160" y="212" width="56" height="42" rx="8"/>
+      <rect x="228" y="212" width="58" height="42" rx="8" fill="#38bdf8"/>
+    </g>
+
+    <g fill="#e5e7eb" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="18">
+      <text x="52" y="131">7</text><text x="120" y="131">8</text><text x="188" y="131">9</text>
+      <text x="257" y="131">÷</text>
+      <text x="52" y="185">4</text><text x="120" y="185">5</text><text x="188" y="185">6</text>
+      <text x="257" y="185">×</text>
+      <text x="52" y="239">1</text><text x="120" y="239">2</text><text x="188" y="239">3</text>
+      <text x="257" y="239" fill="#020617" font-weight="700">=</text>
+    </g>
+  </g>
+
+  <g transform="translate(390 68)">
+    <rect width="195" height="224" rx="14" fill="#111827" stroke="#334155" stroke-width="3"/>
+    <circle cx="24" cy="24" r="6" fill="#ef4444"/>
+    <circle cx="42" cy="24" r="6" fill="#facc15"/>
+    <circle cx="60" cy="24" r="6" fill="#22c55e"/>
+    <g font-family="Consolas, monospace" font-size="16">
+      <text x="18" y="62" fill="#38bdf8">def</text>
+      <text x="52" y="62" fill="#e5e7eb"> add(a, b):</text>
+      <text x="18" y="92" fill="#c4b5fd">    return</text>
+      <text x="96" y="92" fill="#f8fafc">a + b</text>
+      <text x="18" y="132" fill="#38bdf8">def</text>
+      <text x="52" y="132" fill="#e5e7eb"> divide(a, b):</text>
+      <text x="18" y="162" fill="#c4b5fd">    return</text>
+      <text x="96" y="162" fill="#f8fafc">a / b</text>
+      <rect x="18" y="188" width="159" height="16" rx="8" fill="#1e293b"/>
+      <rect x="18" y="188" width="96" height="16" rx="8" fill="#6366f1"/>
+    </g>
+  </g>
+</svg>
